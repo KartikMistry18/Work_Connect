@@ -31,7 +31,7 @@ function Navbars() {
               </NavDropdown>
             </Nav>
             <Nav>
-              <Button variant="light">Login/Sign Up</Button>
+              <Button variant="light">Login/Sign up</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

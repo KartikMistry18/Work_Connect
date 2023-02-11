@@ -1,26 +1,24 @@
 // import "@/styles/globals.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Navbar from "../components/Navbars";
-import { AuthContextProvider } from '../../context/AuthContext'
-import { useRouter } from 'next/router'
-import ProtectedRoute from '../../src/components/ProtectedRoute'
+import { AuthContextProvider } from "../../context/AuthContext";
+import { useRouter } from "next/router";
+import ProtectedRoute from "../../src/components/ProtectedRoute";
 
-const noAuthRequired = ['/', '/login', '/signup']
+const noAuthRequired = ["/login", "/signup", "/", "/about", "/customercare"];
 
 function MyApp({ Component, pageProps }) {
-  const router = useRouter()
+  const router = useRouter();
   return (
     <AuthContextProvider>
       <Navbar />
       {noAuthRequired.includes(router.pathname) ? (
         <Component {...pageProps} />
-       )
-      :(
+      ) : (
         <ProtectedRoute>
-        <Component {...pageProps} />
-      </ProtectedRoute>
+          <Component {...pageProps} />
+        </ProtectedRoute>
       )}
-      
     </AuthContextProvider>
   );
 }

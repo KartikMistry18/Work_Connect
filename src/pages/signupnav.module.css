@@ -1,0 +1,26 @@
+.mainContainer {
+  background: url(../../public/gradient.png);
+  width: 98.9vw;
+  height: 88vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 6rem;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+.text {
+  display: block;
+  width: 100vw;
+}
+.buttonsubmit {
+  width: 20rem;
+}
+.button {
+  display: inline-block;
+}

@@ -32,7 +32,11 @@ const Navbars = () => {
               </Nav.Link>
             </Nav>
             <Nav>
-              <Button className={styles.navText2} href="/signup" variant="light">
+              <Button
+                className={styles.navText2}
+                href="/signupnav"
+                variant="light"
+              >
                 LOGIN/SIGNUP
               </Button>
             </Nav>

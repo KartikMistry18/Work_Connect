@@ -24,7 +24,7 @@ const Signup = () => {
   }
 
   return (
-    <>
+    <div className={styles.container}>
     <img src="/signupbanner.png" className={styles.bannerimg}/>
     <div
     className={styles.mainDiv}
@@ -67,16 +67,16 @@ const Signup = () => {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Signup
+        <Button className={styles.buttonsubmit} variant="primary" type="submit">
+          Signup as Client
         </Button>
-        <Button variant="primary" href='/login'>
-          login
+        <Button className={styles.buttonsubmit} variant="primary" href='/login'>
+          Already existing worker ? Login
         </Button>
       </Form>
       </div>
     </div>
-    </>
+    </div>
   )
 }
 

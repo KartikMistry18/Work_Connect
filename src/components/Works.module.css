@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-evenly;
+  padding: 4rem 1rem;
+}
+.element {
+  width: 25rem;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  background-color: #efe2ba;
+  border-width: 4px;
+  border-style: solid;
+  padding: 2rem;
+  margin-bottom: 4rem;
+  border-radius: 12px;
+  border-image: linear-gradient(#4056a1, #c5cbe3) 30;
+}
+.element:hover {
+  border-image: linear-gradient(#c5cbe3, #4056a1) 30;
+}
+.mainContainer {
+  background-color: #d79922;
+  padding-top: 8rem;
+  text-align: center;
+}
+.heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 4rem;
+}
+.divHeading {
+  font-weight: 600;
+}
+.arrow {
+  width: 4rem;
+  height: 6rem;
+  position: relative;
+  top: 3.5rem;
+}
+.arrow2 {
+  width: 4rem;
+  height: 6rem;
+  position: relative;
+  right: 55rem;
+  top: 4rem;
+}

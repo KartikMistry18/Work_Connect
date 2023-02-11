@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
+import Link from "next/link";
 import styles from "./signupnav.module.css";
 function signupnav() {
   return (
@@ -8,12 +9,15 @@ function signupnav() {
         <h1 className={styles.heading}>SIGNUP OR LOGIN AS</h1>
       </div>
       <div className={styles.button}>
-        <Button className={styles.buttonsubmit} variant="primary" href="/login">
-          WORKER
-        </Button>
-        <Button className={styles.buttonsubmit} variant="primary" href="/login">
-          CLIENT
-        </Button>
+        <Link className={styles.link} href="/signup">
+          <img className={styles.imgsignup} src="/workersignup.png" />
+          <h2>Workers</h2>
+        </Link>
+        <h3 className={styles.option}>OR</h3>
+        <Link className={styles.link} href="/signup">
+          <img className={styles.imgsignup} src="/client.png" />
+          <h2>Client</h2>
+        </Link>
       </div>
     </div>
   );

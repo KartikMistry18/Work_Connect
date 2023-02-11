@@ -3,16 +3,15 @@ import Works from "../components/Works";
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Hero />
       <Works />
-      <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-      <df-messenger
-        intent="WELCOME"
-        chat-title="WorkerToClientBot"
-        agent-id="5291fb65-78f7-477c-874a-0feea40a00f9"
-        language-code="en"
-      ></df-messenger>
-    </>
+      <iframe
+        allow="microphone;"
+        width="350"
+        height="430"
+        src="https://console.dialogflow.com/api-client/demo/embedded/5291fb65-78f7-477c-874a-0feea40a00f9"
+      ></iframe>
+    </div>
   );
 }

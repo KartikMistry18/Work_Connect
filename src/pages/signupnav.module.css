@@ -16,11 +16,30 @@
 }
 .text {
   display: block;
-  width: 100vw;
+  width: 60vw;
 }
 .buttonsubmit {
   width: 20rem;
 }
 .button {
   display: inline-block;
+}
+.imgsignup {
+  width: 8rem;
+  margin: 2rem 2rem 0rem 2rem;
+}
+.link {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+.link:hover {
+  color: black;
+}
+.option {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 4.5rem;
+  margin-top: 2rem;
 }

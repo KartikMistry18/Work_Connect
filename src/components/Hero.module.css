@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-.navMain {
-  background-color: #355d55;
-}
-.navText {
-  color: #fff;
+.tagline {
   font-family: "Roboto", sans-serif;
-  font-weight: 600;
 }
-.logo {
-  width: 8rem;
+.heroImg {
+  width: 40rem;
 }

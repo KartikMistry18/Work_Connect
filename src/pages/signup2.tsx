@@ -4,7 +4,7 @@ import { useAuth } from '../../context/AuthContext'
 import styles from "./signup.module.css"
 import Link from 'next/link'
 
-const Signup = () => {
+const Signup2 = () => {
   const { user, signup } = useAuth()
   console.log(user)
   const [data, setData] = useState({
@@ -26,7 +26,7 @@ const Signup = () => {
 
   return (
     <div className={styles.container}>
-    <img src="/workerbanner.png" className={styles.bannerimg}/>
+    <img src="/clientbanner.png" className={styles.bannerimg}/>
     <div
     className={styles.mainDiv}
       style={{
@@ -71,8 +71,8 @@ const Signup = () => {
         <Button className={styles.buttonsubmit} variant="primary" type="submit">
           Signup
         </Button>
-        <Link className={styles.link} href="/login">
-          Already existing Worker ? Login
+        <Link className={styles.link} href="/login2">
+          Already existing Client ? Login
         </Link>
       </Form>
       </div>
@@ -81,4 +81,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signup2

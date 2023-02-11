@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useAuth } from '../../context/AuthContext'
 
-const Login = () => {
+const Login2 = () => {
   const router = useRouter()
   const { user, login } = useAuth()
   const [data, setData] = useState({
@@ -30,7 +30,7 @@ const Login = () => {
         margin: 'auto',
       }}
     >
-      <h1 className="text-center my-3 ">Worker Login</h1>
+      <h1 className="text-center my-3 ">Client Login</h1>
       <Form onSubmit={handleLogin}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -71,4 +71,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login2

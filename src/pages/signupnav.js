@@ -14,7 +14,7 @@ function signupnav() {
           <h2>Workers</h2>
         </Link>
         <h3 className={styles.option}>OR</h3>
-        <Link className={styles.link} href="/signup">
+        <Link className={styles.link} href="/signup2">
           <img className={styles.imgsignup} src="/client.png" />
           <h2>Client</h2>
         </Link>

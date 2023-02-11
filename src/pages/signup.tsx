@@ -26,7 +26,7 @@ const Login = () => {
   return (
     <div
       style={{
-        width: '40%',
+                width: '40%',
         margin: 'auto',
       }}
     >

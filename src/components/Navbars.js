@@ -27,6 +27,9 @@ const Navbars = () => {
               <Nav.Link className={styles.navText} href="/paj">
                 POST A JOB
               </Nav.Link>
+              <Nav.Link className={styles.navText} href="/faj">
+                FIND A JOB
+              </Nav.Link>
               <Nav.Link className={styles.navText} href="/customercare">
                 CUSTOMER CARE
               </Nav.Link>

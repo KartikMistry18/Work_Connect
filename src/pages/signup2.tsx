@@ -8,6 +8,7 @@ const Signup2 = () => {
   const { user, signup } = useAuth()
   console.log(user)
   const [data, setData] = useState({
+    name:'',
     email: '',
     password: '',
   })
@@ -16,7 +17,7 @@ const Signup2 = () => {
     e.preventDefault()
 
     try {
-      await signup(data.email, data.password)
+      await signup(data.name,data.email, data.password)
     } catch (err) {
       console.log(err)
     }
@@ -36,6 +37,21 @@ const Signup2 = () => {
     >
       <div className={styles.formMain}>
       <Form onSubmit={handleSignup}>
+      <Form.Group className="mb-6" controlId="formBasicName">
+          <Form.Label className={styles.formHeading}>Full Name</Form.Label>
+          <Form.Control
+            type="name"
+            placeholder="Enter name"
+            required
+            onChange={(e: any) =>
+              setData({
+                ...data,
+                name: e.target.value,
+              })
+            }
+            value={data.name}
+          />
+        </Form.Group>
         <Form.Group className="mb-6" controlId="formBasicEmail">
           <Form.Label className={styles.formHeading}>Email address</Form.Label>
           <Form.Control

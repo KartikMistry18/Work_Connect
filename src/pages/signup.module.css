@@ -5,5 +5,13 @@
   text-align: center;
 }
 .bannerimg {
-  width: 100vw;
+  width: 98.9vw;
+}
+.formMain {
+  margin-top: 2rem;
+}
+.formHeading {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  margin-top: 2rem;
 }

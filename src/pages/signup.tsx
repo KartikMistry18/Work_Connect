@@ -33,10 +33,10 @@ const Signup = () => {
         margin: 'auto',
       }}
     >
-      <h1 className={styles.heading}>Signup</h1>
+      <div className={styles.formMain}>
       <Form onSubmit={handleSignup}>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
+        <Form.Group className="mb-6" controlId="formBasicEmail">
+          <Form.Label className={styles.formHeading}>Email address</Form.Label>
           <Form.Control
             type="email"
             placeholder="Enter email"
@@ -51,8 +51,8 @@ const Signup = () => {
           />
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
+        <Form.Group controlId="formBasicPassword">
+          <Form.Label className={styles.formHeading}>Password</Form.Label>
           <Form.Control
             type="password"
             placeholder="Password"
@@ -70,7 +70,11 @@ const Signup = () => {
         <Button variant="primary" type="submit">
           Signup
         </Button>
+        <Button variant="primary" href='/login'>
+          login
+        </Button>
       </Form>
+      </div>
     </div>
     </>
   )

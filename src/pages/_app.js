@@ -12,6 +12,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <AuthContextProvider>
       <Navbar />
+
       {noAuthRequired.includes(router.pathname) ? (
         <Component {...pageProps} />
       ) : (

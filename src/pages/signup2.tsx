@@ -84,8 +84,8 @@ const Signup2 = () => {
           />
         </Form.Group>
 
-        <Button className={styles.buttonsubmit} variant="primary" type="submit">
-          Signup
+        <Button className={styles.buttonsubmit} variant="primary" href="/clientform">
+          Continue
         </Button>
         <Link className={styles.link} href="/login2">
           Already existing Client ? Login

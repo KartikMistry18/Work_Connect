@@ -1,8 +1,6 @@
 import styles from "./customersevice.module.css"
 import React, { useState } from 'react';
 
-
-
   const Contact = () => {
     
     const [userData, setUserData] = useState({
@@ -67,10 +65,9 @@ import React, { useState } from 'react';
     return (
       <div className={styles.main}>
       <div className={styles.maincontact}>
-        {/* <h1 className={styles.mainheader}>We are here for <br/></h1> */}
       </div>
       <h1 className={styles.mainheader}>We are here for <br/> You</h1>
-      
+      <img className={styles.maincontactus} src="/contactus.png"/>
       <div>
      
       </div>
@@ -78,15 +75,11 @@ import React, { useState } from 'react';
       
       </div>
         <section className="contactus-section">
-          <div className="container">
-            <div className="row">
-              <div className="col-12 col-lg-10 mx-auto">
-                <div className="row">
-                  <div className="contact-leftside col-12 col-lg-5">
-                      <img className={styles.contactimage} src="/contact2.png" alt="" />
-                    <figure>
-                    </figure>
-                  </div>
+          <div className={styles.container}>
+            {/* <div className="row"> */}
+              {/* <div className="col-12 col-lg-10 mx-auto"> */}
+                {/* <div className="row"> */}
+                  
   
                   {/* right side contact form  */}
                   <div className={styles.context}>
@@ -197,9 +190,9 @@ import React, { useState } from 'react';
                      
                     </form>
                   </div>
-                </div>
-              </div>
-            </div>
+                {/* </div> */}
+              {/* </div> */}
+            {/* </div> */}
           </div>
         </section>
       </div>

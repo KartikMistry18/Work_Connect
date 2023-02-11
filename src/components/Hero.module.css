@@ -1,7 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .tagline {
   font-family: "Roboto", sans-serif;
+  display: inline;
+  width: 40rem;
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: #000000;
+  position: relative;
+  top: 9rem;
+}
+.firstLine {
+  font-weight: 200;
 }
 .heroImg {
-  width: 40rem;
+  width: 48.5rem;
+  display: inline;
+  left: 3rem;
+  float: right;
+  position: relative;
+  bottom: 6rem;
+}
+.contentDiv {
+  width: 30rem;
+  display: inline;
+}
+.mainDiv {
+  background-color: #c5cbe3;
+  width: 98.9vw;
+  height: 88vh;
+  padding: 6rem 3rem 3rem 3rem;
+  overflow-x: hidden;
 }

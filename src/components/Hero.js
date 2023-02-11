@@ -2,15 +2,16 @@ import React from "react";
 import styles from "./Hero.module.css";
 function Hero() {
   return (
-    <div>
-      <div>
+    <div className={styles.mainDiv}>
+      <div className={styles.contentDiv}>
         <h1 className={styles.tagline}>
-          GitHub repository should be private and the link should be sent on
-          your specific team channel.
+          <span className={styles.firstLine}>The platform for connecting</span>{" "}
+          <br className={styles.space} />
+          Top talent <span className={styles.firstLine}>to </span>Top clients
         </h1>
-      </div>
 
-      <img className={styles.heroImg} src="/workers.png" />
+        <img className={styles.heroImg} src="/workergrp.png" />
+      </div>
     </div>
   );
 }

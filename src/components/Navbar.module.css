@@ -1,12 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .navMain {
-  background-color: #355d55;
+  background-color: #4056a1;
 }
 .navText {
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
+  margin: 0 1rem;
+}
+.navText2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  margin: 0 1rem;
+  width: 10rem;
+  padding: 0.5rem;
+  position: relative;
+  left: 6rem;
 }
 .logo {
   width: 8rem;
+  margin-right: 16rem;
+  position: relative;
+  right: 5rem;
 }

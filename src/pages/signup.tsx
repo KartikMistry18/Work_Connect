@@ -1,7 +1,8 @@
-import styles from "./signup.module.css"
+
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useAuth } from '../../context/AuthContext'
+import { useRouter } from 'next/router'
 
 const Login = () => {
   const router = useRouter()
@@ -26,7 +27,7 @@ const Login = () => {
   return (
     <div
       style={{
-                width: '40%',
+      width: '40%',
         margin: 'auto',
       }}
     >

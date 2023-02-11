@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 import { useAuth } from '../../context/AuthContext'
+import styles from "./signup.module.css"
 
 const Signup = () => {
   const { user, signup } = useAuth()
@@ -23,13 +24,16 @@ const Signup = () => {
   }
 
   return (
+    <>
+    <img src="/signupbanner.png" className={styles.bannerimg}/>
     <div
+    className={styles.mainDiv}
       style={{
-        width: '40%',
+        width: '60%',
         margin: 'auto',
       }}
     >
-      <h1 className="text-center my-3 ">Signup</h1>
+      <h1 className={styles.heading}>Signup</h1>
       <Form onSubmit={handleSignup}>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
@@ -68,6 +72,7 @@ const Signup = () => {
         </Button>
       </Form>
     </div>
+    </>
   )
 }
 

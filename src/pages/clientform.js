@@ -67,7 +67,7 @@ import React, { useState } from 'react';
       <div className={styles.maincontact}>
         <img className={styles.mainimg} src="/clientbos.png"/>
       </div>
-      {/* <h1 className={styles.mainheader}></h1> */}
+      
       
       
       <div>
@@ -78,12 +78,10 @@ import React, { useState } from 'react';
       </div>
         <section className="contactus-section">
           <div className={styles.container}>
-            {/* <div className="row"> */}
-              {/* <div className="col-12 col-lg-10 mx-auto"> */}
-                {/* <div className="row"> */}
+            
                   
   
-                  {/* right side contact form  */}
+                  
                   <div className={styles.context}>
                     <form method="POST">
                       <div className="row">
@@ -128,7 +126,18 @@ import React, { useState } from 'react';
                             name="email"
                             id=""
                             className="form-control"
-                            placeholder="Email ID"
+                            placeholder="Aadar-card"
+                            value={userData.email}
+                            onChange={postUserData}
+                          />
+                        </div>
+                        <div className={styles.box}>
+                          <input
+                            type="text"
+                            name="email"
+                            id=""
+                            className="form-control"
+                            placeholder="Service you need"
                             value={userData.email}
                             onChange={postUserData}
                           />
@@ -149,7 +158,7 @@ import React, { useState } from 'react';
                         </div>
                       </div>
   
-                      <div className="row">
+                      {/* <div className="row">
                         <div className={styles.con2}>
                         <div className="col-12 ">
                           <input
@@ -164,7 +173,7 @@ import React, { useState } from 'react';
                           />
                         </div>
                         </div>
-                        </div>
+                        </div> */}
                       </div>
 {/*                       
                       

@@ -28,7 +28,7 @@ const Navbars = () => {
                 POST A JOB
               </Nav.Link>
               <Nav.Link className={styles.navText} href="/customercare">
-                CUSTOMERCARE
+                CUSTOMER CARE
               </Nav.Link>
             </Nav>
             <Nav>

@@ -16,8 +16,12 @@
     color: white;
 }
 .container{
+    background-color: #adb3c9;
+    border-radius: 10px;
+    width: 65rem;
+    height: 40rem;
     position: relative;
-    bottom: 15rem;
+    bottom: 19rem;
     left: 22rem;
     /* right: 19rem; */
 }
@@ -70,10 +74,14 @@
 .maincontact{
     width: 100vw;
     height: 90vh;
-    background: url("../../public/team.jpg");
-    background-size: cover;
-    filter: blur(5px);
     z-index: -1;
+}
+.mainimg{
+    width: 100%;
+}
+.information{
+    position: relative;
+    bottom: 15rem;
 }
 .mainheader{
    position: relative;

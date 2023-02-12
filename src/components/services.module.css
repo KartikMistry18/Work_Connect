@@ -7,6 +7,10 @@
   justify-content: space-evenly;
   padding: 4rem 1rem;
 }
+.falticonimg
+{
+  width: 70%;
+}
 .element {
   width: 25rem;
   color: #000000;

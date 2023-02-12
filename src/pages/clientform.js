@@ -7,7 +7,8 @@ import React, { useState } from 'react';
       firstName: "",
       lastName: "",
       phone: "",
-      email: "",
+      aadar: "",
+      service: "",
       address: "",
       message: "",
     });

@@ -50,7 +50,7 @@ function about() {
                 Om <br />
                 Bhambale
               </h1>
-              <img className={styles.profileimg} src="/krishay.jpeg" />
+              <img className={styles.profileimg} src="/om.jpeg" />
             </div>
             <div className={styles.element}>
               <h1 className={styles.divHeading}>

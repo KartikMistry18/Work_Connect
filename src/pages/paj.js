@@ -128,11 +128,11 @@ const paj = () => {
                   <label className="formTitle">Job salary</label>
                   <input
                     type="text"
-                    name="email"
+                    name="message"
                     id=""
                     className="form-control"
                     placeholder="salary in INR"
-                    value={userData.email}
+                    value={userData.message}
                     onChange={postUserData}
                   />
                 </div>

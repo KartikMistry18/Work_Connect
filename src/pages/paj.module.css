@@ -1,0 +1,133 @@
+.main {
+  background-color: #c5cbe3;
+}
+.contact {
+  position: relative;
+  width: 865px;
+  height: 49px;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: "Otomanopee One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 28px;
+  color: white;
+}
+.container {
+  background-color: #adb3c9;
+  border-radius: 10px;
+  width: 65rem;
+  height: 40rem;
+  position: relative;
+  bottom: 19rem;
+  left: 22rem;
+  /* right: 19rem; */
+}
+.maincontactus {
+  position: relative;
+  width: 100%;
+  bottom: 15.5rem;
+}
+.line {
+  position: relative;
+
+  width: 100%;
+  height: 0px;
+  border: 4px solid #3c0fe1;
+}
+.main_para {
+  position: relative;
+  margin-left: 50px;
+  font-size: 20px;
+  width: 100%;
+  height: 50px;
+  font-weight: bolder;
+  color: white;
+}
+.tick {
+  color: white;
+}
+.submit {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 30rem;
+  text-align: center;
+}
+.submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.banner {
+  width: 100%;
+  height: 25rem;
+}
+.maincontact {
+  width: 100vw;
+  height: 90vh;
+  z-index: -1;
+}
+.mainimg {
+  width: 100%;
+}
+.information {
+  position: relative;
+  bottom: 15rem;
+}
+.mainheader {
+  position: relative;
+  font-size: 100px;
+  font-weight: 900;
+  /* left: 31rem; */
+  bottom: 35rem;
+  text-align: center;
+  color: white;
+}
+.contactus_section {
+  bottom: 20rem;
+}
+.box {
+  margin-top: 20px;
+  margin-left: 120px;
+}
+
+.context {
+  margin-top: 60px;
+  width: 50%;
+}
+.con {
+  position: relative;
+  margin-top: 60px;
+  left: 7.5rem;
+  bottom: 2rem;
+}
+.con2 {
+  position: relative;
+  margin-top: 60px;
+  left: 7.5rem;
+  bottom: 3.5rem;
+}
+.inputaddress {
+  height: 6rem;
+  width: 53rem;
+  border-radius: 12px;
+}
+.inputaddress2 {
+  height: 6rem;
+  width: 53rem;
+  border-radius: 12px;
+}
+.contactimage {
+  float: left;
+  display: inline-block;
+  position: relative;
+  top: 4rem;
+  width: 120rem;
+  right: 10rem;
+}

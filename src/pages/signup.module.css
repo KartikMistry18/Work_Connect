@@ -26,6 +26,13 @@
   position: relative;
   top: 1rem;
 }
+.buttonsubmit2 {
+  margin: 1rem;
+  width: 10rem;
+
+  position: relative;
+  top: 1rem;
+}
 
 .container {
   background-color: #c5cbe3;

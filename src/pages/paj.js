@@ -101,34 +101,37 @@ const paj = () => {
               </div>
               <div className="row">
                 <div className={styles.box}>
+                  <label className="formTitle">Phone Number</label>
                   <input
                     type="text"
                     name="phone"
                     id=""
                     className="form-control"
-                    placeholder="Phone Number "
+                    placeholder="enter phone number"
                     value={userData.phone}
                     onChange={postUserData}
                   />
                 </div>
                 <div className={styles.box}>
+                  <label className="formTitle">Identity Proof</label>
                   <input
                     type="text"
                     name="email"
                     id=""
                     className="form-control"
-                    placeholder="Aadar-card"
+                    placeholder="Enter any identity proof (Aadhar,Pan card,etc)"
                     value={userData.email}
                     onChange={postUserData}
                   />
                 </div>
                 <div className={styles.box}>
+                  <label className="formTitle">Job salary</label>
                   <input
                     type="text"
                     name="email"
                     id=""
                     className="form-control"
-                    placeholder="Service you need"
+                    placeholder="salary in INR"
                     value={userData.email}
                     onChange={postUserData}
                   />
@@ -137,12 +140,13 @@ const paj = () => {
               <div className="row">
                 <div className={styles.con}>
                   <div className="col-12 contact-input-feild">
+                    <label className="formTitle">Job location</label>
                     <input
                       type="text"
                       name="address"
                       id=""
                       className={styles.inputaddress}
-                      placeholder="Add Address"
+                      placeholder="Add Job location"
                       value={userData.address}
                       onChange={postUserData}
                     />

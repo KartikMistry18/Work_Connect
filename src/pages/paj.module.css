@@ -18,7 +18,7 @@
   background-color: #adb3c9;
   border-radius: 10px;
   width: 65rem;
-  height: 40rem;
+  height: 45rem;
   position: relative;
   bottom: 19rem;
   left: 22rem;
@@ -52,13 +52,16 @@
   background-color: #4caf50; /* Green */
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 16px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 30rem;
+  margin-left: 23rem;
+  margin-top: 2rem;
+
   text-align: center;
+  width: 16rem;
 }
 .submit:hover {
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),

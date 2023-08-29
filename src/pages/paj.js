@@ -1,7 +1,7 @@
 import styles from "./paj.module.css";
 import React, { useState } from "react";
 
-const paj = () => {
+const Paj = () => {
   const [userData, setUserData] = useState({
     firstName: "",
     lastName: "",
@@ -205,4 +205,4 @@ const paj = () => {
   );
 };
 
-export default paj;
+export default Paj;
